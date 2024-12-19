@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#language">Coding Language</a></li>
+                <li><a href="#favoritemovie">Favorite movies</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT/Programmer</p>
+            <h1>Hi, I'm <span>Kenneth Cañete</span><br>Dumalauron</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Kenneth Dumalauron, a 21-year-old from Dampas, Tagbilaran City. I am a 3rd-year Bachelor of Science in Information Technology student at Bohol Island State University, Balilihan Campus. 
+                        <br>Graphic editor of:
+                        <br>AnyThinkMotivation
+                        <br>Luxury Mindset
+                        <br>World Luxurys</p>
+                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Fav Band</p>
+                            <p class="tab-links" onclick="opentab('Education')">Hobbie</p>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Egg</span></li>
+                                <li><span>Fried Chicken </span></li>
+                                <li><span>Coke</span></li>
+                            </ul>
+                        </div>
+                        <!----------  band --------->
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Linkin park</span></li>
+                                <li><span>Korn</span></li>
+                                <li><span>Slipnot</span></li>
+                            </ul>
+                        </div>
+                        <!----------  movies --------->
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Playing PUBG</span></li>
+                                <li><span>Reading Horror Trivia</span></li>
+                                <li><span>Hanging Out</span></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Coding Language --------->
+    <div id="language">
+        <div class="container">
+            <h1 class="sub-title">Favorite Genre</h1>
+            <div class="language-list">
+                <div>
+                    <h2>Elementary</h2>
+                    <p>Dampas Elementary School<br>(consistent honor student from grade 1-4)</p> 
+                </div>
+                <div>
+                    <h2>High School</h2>
+                    <p>Holy Infant School<br>(Grade 7 with high honors)</p> 
+                </div>
+                <div>
+                    <h2>College</h2>
+                    <p>Bohol Island State University<br>(Currently Studying as a 3rd year student)</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Favorite movie --------->
+        <div id="favoritemovie">
+            <div class="fcontainer">
+                <h1 class="sub-title"> Favorite movies</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/porject1.jpg">
+                        <div class="layer">
+                            <h1>Project1</h1>
+                             </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/project2.jpg">
+                        <div class="layer">
+                        <h1>Project2</h1>
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/project3.jpg">
+                        <div class="layer">                       
+                        <h1>Project3</h1>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>dumalauronk@gmal.com</p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>09105541554</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>Kenneth Cañete Dumalauron</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 Kenneth Cañete Dumalauron. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
